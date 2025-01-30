@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#window {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+#display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    max-width: 48px;
+    min-height: 48px;
+    max-height: 48px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.number {
+    background-color: lightgray;
+}
+
+.utility {
+    background-color: aliceblue;
+}
+
+#clear {
+    color: red;
+    background-color: orange
+}
+
+#decimal{
+    background-color: gray;
+}
+
+#result {
+    color: white;
+    background-color: green;
+}
