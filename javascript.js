@@ -86,10 +86,11 @@ function results(){
             divideNumbers(num1, num2);
             break;
         default:
-            alert("Result case statement broken");
+            alert("Select a function.");
     }
 
     mathFunctionPressed = false;
+    selectedFunction = "";
     num1 = display.textContent;
 }
 
